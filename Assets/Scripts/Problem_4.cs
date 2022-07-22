@@ -11,5 +11,10 @@ public class Problem_4 : MonoBehaviour
     */
     void Start()
     {
+        List<int> list = new List<int>();
+        for (int i = 0; i<144; i++)
+        {
+            
+        }
     }
 }
