@@ -14,7 +14,22 @@ public class Problem_4 : MonoBehaviour
         List<int> list = new List<int>();
         for (int i = 0; i<144; i++)
         {
-            
+            if (i % 2 != 0 && i % 7==0)
+            {
+                list.Add(i);
+            }
         }
+        int[] numbers = new int[list.Count/2];
+        int n = 0;
+        for (int i = 0; i < list.Count;i++) 
+        {
+            if (i%2 ==0)
+            {
+                numbers[n] = list[i];
+                n++; 
+            }
+        }
+
+    
     }
 }
